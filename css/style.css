@@ -68,6 +68,10 @@ section {
   border: 0.1rem solid #aaa;
   border-radius: .5rem;
 }
+.heading span b{
+  color: #ffffffd2;
+  font-weight: bolder;
+}
 
 .btn {
   margin-top: 1rem;
@@ -114,6 +118,9 @@ section {
   color: #ffae01d2;
 }
 
+.header .icono img{
+  width: 85px;
+}
 .header .navbar a {
   display: inline-block;
   padding: 1.5rem 2rem;
@@ -135,6 +142,9 @@ section {
 .home {
   padding: 0;
   margin-top: 5rem;
+  max-width: 85%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .home .slide {
@@ -155,7 +165,7 @@ section {
 }
 
 .home .slide .content span {
-  font-size: 2rem;
+  font-size: 3rem;
   color: white;
   display: block;
   /*-webkit-text-stroke-width: 1px rgb(253, 0, 0);
@@ -163,14 +173,20 @@ section {
 }
 
 .home .slide .content h3 {
-  font-size: 5rem;
-  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding: 1rem 0;
-  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-width: .5px;
   -webkit-text-stroke-color: rgb(0, 0, 0);
 }
 
-
+.home .slide .content img{
+  width: 300px;
+  margin-left: 0rem ;
+  display: block;
+}
 
 .swiper-pagination-bullet {
   height: 2rem;
@@ -426,6 +442,8 @@ section {
   height: 40rem;
   overflow: hidden;
   position: relative;
+  max-width: 100rem;
+  margin: auto;
 }
 
 .trainers .box-container .box:hover .content {
@@ -476,6 +494,15 @@ section {
 
 .trainers .box-container .box .content .share a:hover {
   color: #ffae01d2;
+}
+
+.trainers .sobre_mi {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../images/banner-bg.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/banner-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  
 }
 
 .trainers .sobre_mi h1 {
@@ -679,6 +706,62 @@ section {
   padding: 1rem 0;
 }
 
+
+.contacto {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../images/banner-bg.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/banner-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.contacto span {
+  font-size: 2rem;
+  color: #ffae01d2;
+}
+
+.contacto h3 {
+  padding-top: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 3.5rem;
+}
+
+.contacto p {
+  margin: 1rem auto;
+  max-width: 60rem;
+  font-size: 1.5rem;
+  color: #aaa;
+  line-height: 2;
+}
+.contacto .heading span{
+  font-size: 3rem;
+  color: #ffae01d2;
+  background: #000;
+  padding: .5rem 1.5rem;
+  border: 0.1rem solid #aaa;
+  border-radius: .5rem;
+}
+.contacto .heading span b{
+  color: #ffffffd2;
+  font-weight: bolder;
+}
+
+.contacto a{
+  color: #ffae01d2;
+  font-size: 100px;
+  font-weight: bolder;
+  margin-top: 19px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.contacto a:hover{
+  color: #ffffffd2;
+  font-size: 100px;
+  font-weight: bolder;
+}
+
 .footer .box-container {
   display: -ms-grid;
   display: grid;
@@ -778,6 +861,7 @@ section {
   .home .slide .content h3 {
     font-size: 4rem;
   }
+
 }
 
 @media (max-width: 768px) {
@@ -823,11 +907,62 @@ section {
         -ms-flex-flow: column;
             flex-flow: column;
   }
+  
 }
 
 @media (max-width: 450px) {
   html {
     font-size: 50%;
   }
+  .home {
+    padding: 0;
+    margin-top: 5rem;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .home .slide .content span {
+    font-size: 2.2rem;
+     /*color: white;
+    display: block;
+   -webkit-text-stroke-width: 1px rgb(253, 0, 0);
+    -webkit-text-stroke-color: rgb(255, 255, 255);*/
+   
+  }
+  
+  .home .slide .content h3 {
+    font-size: 3rem;
+    color: white;
+    padding: 1rem 0;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    
+  }
+  .home .slide .content {
+    width: 60rem;
+    margin-left: 1rem;
+  }
+  .home .slide .content img{
+    width: 200px;
+    margin-left: 0rem ;
+    display: block;
+    margin-bottom: 10px;
+    
+  }
+  
 }
 /*# sourceMappingURL=style.css.map */
+
+/*Flecha para hacer la pagina hacia arriba*/
+.ir-arriba{
+  display:none;
+  background-repeat:no-repeat;
+  font-size:20px;
+  color:#ffae01d2;
+  cursor:pointer;
+  position:fixed;
+  bottom:10px;
+  right:10px;
+  z-index:2;
+}
