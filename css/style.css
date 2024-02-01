@@ -187,11 +187,42 @@ section {
   -webkit-text-stroke-color: rgb(0, 0, 0);
 }
 
-.home .slide .content img {
-  width: 300px;
-  margin-left: 0rem;
+.home .slide .content .letrero{
+  width: 260px;
+  z-index: -1;
+  bottom: 420px;
   display: block;
+  position: absolute;
+  margin-left: 100px;
+  margin-right: auto;
 }
+
+
+
+.home .slide .content .yo{
+  width: 500px;
+  bottom: 1px;
+  display: block;
+  position: absolute;
+  z-index: 1;
+  margin-left: -40px
+}
+.home .slide .content .slogan{
+  bottom: 50px;
+  display: block;
+  position: absolute;
+  margin-left: 200px;
+  width: 160px;
+}
+.home .slide .content .logo{
+  display: block;
+  position: absolute;
+  bottom: 330px;
+  margin-left: 200px;
+  width: 150px;
+}
+
+
 
 .swiper-pagination-bullet {
   height: 2rem;
