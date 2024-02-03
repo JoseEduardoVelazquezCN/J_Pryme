@@ -206,20 +206,20 @@ background-size: cover;
 
 
 .home .slide .content .yo {
-  width: 310px;
+  width: 320px;
   bottom: 1px;
   display: block;
   position: absolute;
   z-index: 1;
-  margin-left: -60px
+  margin-left: -40px
 }
 
 .home .slide .content .slogan {
   bottom: 50px;
   display: block;
   position: absolute;
-  margin-left: 200px;
-  width: 160px;
+  margin-left: 240px;
+  width: 110px;
 }
 
 .home .slide .content .logo {
@@ -239,6 +239,61 @@ background-size: cover;
 }
 
 
+.dezlizar{
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.dezlizar a{
+  /*color: #ffae01d2;
+  text-align: center;
+  font-size: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #ffffff;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  width: 200px;*/
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 8px 10px 10px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #B21F29;
+  overflow: hidden;
+ 
+  color: #ffffffd2;
+  font-size: 20px;
+  font-weight: bold;
+}
+.dezlizar a:hover{
+  color: #ffffff;
+  font-weight: bold;
+}
+.dezlizar a:hover::after{
+  width: 100%;
+}
+.dezlizar a:after{
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #ffae01d2;
+}
 
 .swiper-pagination-bullet {
   height: 2rem;
@@ -994,7 +1049,6 @@ background-size: cover;
     -ms-flex-flow: column;
     flex-flow: column;
   }
-
 }
 
 @media (max-width: 450px) {
@@ -1042,6 +1096,56 @@ background-size: cover;
   }
 
 }
+
+@media (min-width: 769px){
+  .home .slide .content .letrero {
+    width: 500px;
+    z-index: -1;
+    bottom: 440px;
+    display: block;
+    position: absolute;
+    margin-left: 600px;
+    margin-right: auto;
+  }
+  .home .slide .content .yo {
+    width: 450px;
+    bottom: 1px;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    margin-left: 200px
+  }
+  .home .slide .content .slogan {
+    bottom: 40px;
+    display: block;
+    position: absolute;
+    margin-left: 610px;
+    width: 270px;
+  }
+  
+  .home .slide .content .logo {
+    display: block;
+    position: absolute;
+    bottom: 300px;
+    margin-left: 820px;
+    width: 250px;
+  }
+  .dezlizar{
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 58px;
+  }
+}
+
+
+
+
+
+
+
+
 
 /*# sourceMappingURL=style.css.map */
 
