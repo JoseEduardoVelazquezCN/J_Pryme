@@ -30,7 +30,8 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #ffae01d2;
+  /*#ffae01d2*/
+  background: #B21F29;
   border-radius: 3rem;
 }
 
@@ -63,7 +64,7 @@ section {
 
 .heading span {
   font-size: 3rem;
-  color: #ffae01d2;
+  color: #B21F29;
   background: #000;
   padding: .5rem 1.5rem;
   border: 0.1rem solid #aaa;
@@ -80,7 +81,7 @@ section {
   display: inline-block;
   padding: 1rem 2.8rem;
   padding-right: 3rem;
-  background: linear-gradient(130deg, #ffae01d2 93%, transparent 90%);
+  background: linear-gradient(130deg, #B21F29 93%, transparent 90%);
   color: #fff;
   cursor: pointer;
   font-size: 1.7rem;
@@ -89,6 +90,7 @@ section {
 .btn:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+  background: linear-gradient(130deg, #FFBF00 93%, transparent 90%);
 }
 
 .header {
@@ -117,7 +119,7 @@ section {
 }
 
 .header .logo span {
-  color: #ffae01d2;
+  color: #B21F29;
 }
 
 .header .icono img {
@@ -132,7 +134,7 @@ section {
 }
 
 .header .navbar a:hover {
-  background: #ffae01d2;
+  background: #B21F29;
 }
 
 #menu-btn {
@@ -292,7 +294,7 @@ background-size: cover;
   top: 0;
   width: 0;
   height: 100%;
-  background: #ffae01d2;
+  background: #B21F29;
 }
 
 .swiper-pagination-bullet {
@@ -303,7 +305,7 @@ background-size: cover;
 }
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: #ffae01d2;
+  background: #B21F29;
 }
 
 .about {
@@ -330,7 +332,7 @@ background-size: cover;
   content: '';
   position: absolute;
   z-index: -1;
-  background: #ffae01d2;
+  background: #B21F29;
   height: 15rem;
   width: 15rem;
 }
@@ -358,7 +360,7 @@ background-size: cover;
 
 .about .content span {
   font-size: 2rem;
-  color: #ffae01d2;
+  color: #B21F29;
 }
 
 .about .content .title {
@@ -397,7 +399,7 @@ background-size: cover;
 
 .about .content .box-container .box h3 i {
   padding-right: 1.5rem;
-  color: #ffae01d2;
+  color: #B21F29;
 }
 
 .features .box-container {
@@ -455,7 +457,7 @@ background-size: cover;
 
 .features .box-container .box .content h3 {
   font-size: 2rem;
-  color: #ffae01d2;
+  color: #B21F29;
 }
 
 .features .box-container .box .content p {
@@ -475,7 +477,7 @@ background-size: cover;
 
 .pricing .information span {
   font-size: 2rem;
-  color: #ffae01d2;
+  color: #B21F29;
 }
 
 .pricing .information h3 {
@@ -493,7 +495,7 @@ background-size: cover;
 
 .pricing .information p i {
   padding-right: 1rem;
-  color: #ffae01d2;
+  color: #B21F29;
 }
 
 .pricing .plan {
@@ -514,7 +516,7 @@ background-size: cover;
 .pricing .plan .price {
   font-size: 5rem;
   font-weight: bolder;
-  color: #ffae01d2;
+  color: #FFBF00;
 }
 
 .pricing .plan .price span {
@@ -535,7 +537,7 @@ background-size: cover;
 
 .pricing .plan .list p i {
   padding-right: 1rem;
-  color: #ffae01d2;
+  color: #FFBF00;
 }
 
 .trainers .box-container {
@@ -579,7 +581,7 @@ background-size: cover;
 
 .trainers .box-container .box .content span {
   font-size: 1.5rem;
-  color: #ffae01d2;
+  color: #B21F29;
 }
 
 .trainers .box-container .box .content h3 {
@@ -601,7 +603,7 @@ background-size: cover;
 }
 
 .trainers .box-container .box .content .share a:hover {
-  color: #ffae01d2;
+  color: #B21F29;
 }
 
 .trainers .sobre_mi {
@@ -634,7 +636,7 @@ background-size: cover;
   padding-right: 3rem;
   max-width: 60rem;
   font-size: 1.5rem;
-  color: #fc8320;
+  color: #FFBF00;
   line-height: 2;
 }
 
@@ -649,7 +651,7 @@ background-size: cover;
 
 .banner span {
   font-size: 2rem;
-  color: #a4af0ed2;
+  color: #B21F29;
 }
 
 .banner h3 {
@@ -687,7 +689,7 @@ background-size: cover;
 
 .review .information span {
   font-size: 2rem;
-  color: #ffae01d2;
+  color: #B21F29;
 }
 
 .review .information h3 {
@@ -745,7 +747,7 @@ background-size: cover;
 }
 
 .review .review-slider .slide .user span {
-  color: #ffae01d2;
+  color: #B21F29;
   font-size: 1.5rem;
 }
 
@@ -753,7 +755,7 @@ background-size: cover;
   font-size: 5rem;
   margin-left: auto;
   margin-right: 2rem;
-  color: #ffae01d2;
+  color: #B21F29;
 }
 
 .blogs .slide {
@@ -789,7 +791,7 @@ background-size: cover;
 }
 
 .blogs .slide .content .link a {
-  color: #ffae01d2;
+  color: #FFBF00;
 }
 
 .blogs .slide .content .link a:hover {
@@ -843,7 +845,7 @@ background-size: cover;
 
 .contacto span {
   font-size: 2rem;
-  color: #ffae01d2;
+  color: #B21F29;
 }
 
 .contacto h3 {
@@ -863,11 +865,14 @@ background-size: cover;
 
 .contacto .heading span {
   font-size: 3rem;
-  color: #ffae01d2;
+  color: #B21F29;
   background: #000;
   padding: .5rem 1.5rem;
   border: 0.1rem solid #aaa;
   border-radius: .5rem;
+}
+.contacto .box .content  .contenido {
+  color: #FFBF00;
 }
 
 .contacto .heading span b {
@@ -876,7 +881,7 @@ background-size: cover;
 }
 
 .contacto a {
-  color: #ffae01d2;
+  color: #FFBF00;
   font-size: 100px;
   font-weight: bolder;
   margin-top: 19px;
@@ -912,7 +917,7 @@ background-size: cover;
 }
 
 .footer .box-container .box .links:hover {
-  color: #ffae01d2;
+  color: #B21F29;
 }
 
 .footer .box-container .box p {
@@ -923,7 +928,7 @@ background-size: cover;
 
 .footer .box-container .box p i {
   padding-right: .5rem;
-  color: #ffae01d2;
+  color: #B21F29;
 }
 
 .footer .box-container .box .share {
@@ -943,7 +948,7 @@ background-size: cover;
 }
 
 .footer .box-container .box .share a:hover {
-  background: #ffae01d2;
+  background: #B21F29;
 }
 
 .footer .box-container .box form .email {
@@ -966,7 +971,7 @@ background-size: cover;
 }
 
 .credit span {
-  color: #ffae01d2;
+  color: #B21F29;
 }
 
 @media (max-width: 991px) {
@@ -1154,7 +1159,7 @@ background-size: cover;
   display: none;
   background-repeat: no-repeat;
   font-size: 20px;
-  color: #ffae01d2;
+  color: #B21F29;
   cursor: pointer;
   position: fixed;
   bottom: 10px;
