@@ -64,7 +64,7 @@ section {
 
 .heading span {
   font-size: 3rem;
-  color: #B21F29;
+  color: #FFBF00;
   background: #000;
   padding: .5rem 1.5rem;
   border: 0.1rem solid #aaa;
@@ -305,7 +305,7 @@ background-size: cover;
 }
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: #B21F29;
+  background: #FFBF00;
 }
 
 .about {
@@ -581,13 +581,17 @@ background-size: cover;
 
 .trainers .box-container .box .content span {
   font-size: 1.5rem;
-  color: #B21F29;
+  color: #FFBF00;
+  font-weight: 300;
+  font-family: sans-serif;
 }
 
 .trainers .box-container .box .content h3 {
   font-size: 2rem;
   color: #fff;
   padding-top: .5rem;
+  font-weight: 300;
+  font-family: sans-serif;
 }
 
 .trainers .box-container .box .content .share {
@@ -623,6 +627,8 @@ background-size: cover;
   font-size: 1.8rem;
   text-align: justify;
   text-transform: none;
+  font-weight: 300;
+  font-family: sans-serif;
 }
 
 .trainers .sobre_mi .linea {
@@ -638,6 +644,8 @@ background-size: cover;
   font-size: 1.5rem;
   color: #FFBF00;
   line-height: 2;
+  font-weight: 300;
+  font-family: sans-serif;
 }
 
 .banner {
@@ -845,7 +853,7 @@ background-size: cover;
 
 .contacto span {
   font-size: 2rem;
-  color: #B21F29;
+  color: #FFBF00;
 }
 
 .contacto h3 {
@@ -865,7 +873,7 @@ background-size: cover;
 
 .contacto .heading span {
   font-size: 3rem;
-  color: #B21F29;
+  color: #FFBF00 ;
   background: #000;
   padding: .5rem 1.5rem;
   border: 0.1rem solid #aaa;
@@ -881,7 +889,7 @@ background-size: cover;
 }
 
 .contacto a {
-  color: #FFBF00;
+  color: #ffbf00cd;
   font-size: 100px;
   font-weight: bolder;
   margin-top: 19px;
@@ -917,18 +925,19 @@ background-size: cover;
 }
 
 .footer .box-container .box .links:hover {
-  color: #B21F29;
+  color: #FFBF00;
 }
 
 .footer .box-container .box p {
   font-size: 1.5rem;
   color: #aaa;
   padding: 1rem 0;
+  text-transform: none;
 }
 
 .footer .box-container .box p i {
   padding-right: .5rem;
-  color: #B21F29;
+  color: #FFBF00    ;
 }
 
 .footer .box-container .box .share {
@@ -972,6 +981,8 @@ background-size: cover;
 
 .credit span {
   color: #B21F29;
+  font-weight: 300;
+  font-family: sans-serif;
 }
 
 @media (max-width: 991px) {
