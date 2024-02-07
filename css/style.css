@@ -1166,14 +1166,26 @@ background-size: cover;
 /*# sourceMappingURL=style.css.map */
 
 /*Flecha para hacer la pagina hacia arriba*/
+/*A04-estilo Span.ir-arriba INICIO*/
 .ir-arriba {
   display: none;
-  background-repeat: no-repeat;
-  font-size: 20px;
-  color: #B21F29;
+  padding: 10px;
+  background: #B21F29;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
   cursor: pointer;
   position: fixed;
-  bottom: 10px;
-  right: 10px;
-  z-index: 2;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 20px;
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+
+@media (min-width: 700px) {
+  .ir-arriba:hover {
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+  }
+}
+
+/*A04-estilo Span.ir-arriba FIN*/
